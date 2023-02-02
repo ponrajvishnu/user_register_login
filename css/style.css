@@ -33,3 +33,7 @@ form label{
     font-weight: 500;
     margin-bottom: 5px;
 }
+#logout_session{
+    text-decoration: none;
+    color: #4b50a6;
+}

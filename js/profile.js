@@ -29,4 +29,9 @@ $(document).ready(function(){
             }
         })
     })
+
+    $(document).on("click","#logout_session",function(){
+        localStorage.setItem('email','');
+        window.location.href = "../index.html";
+    })
 })
