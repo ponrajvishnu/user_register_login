@@ -1,0 +1,35 @@
+span.err {
+    color: #ff0000;
+    font-size: 14px;
+}
+.register_container, .login_container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, rgb(113, 183, 230), rgb(155, 89, 182));
+}
+.register_container .container, .login_container .container{
+    max-width: 700px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 15%) 0px 5px 10px;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.submit-btn{
+    background: linear-gradient(-135deg, rgb(113, 183, 230), rgb(155, 89, 182));
+    border: none;
+}
+.login_link{
+    font-size: 15px;
+    float: right;
+    text-decoration: none;
+    margin-top: 12px;
+}
+form label{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}

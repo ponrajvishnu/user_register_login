@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>User - Registration</title>
+</head>
+<body>
+    <div class="register_container">
+        <div class="container">
+            <a href="login.php" class="login_link">Login</a>
+            <h3 class="text-center">User Registration</h3>
+            <form id="register_form" method="POST">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="">First Name</label>
+                        <input type="text" class="form-control" id="first_name" >
+                        <span class="err fname-err"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="">Last Name</label>
+                        <input type="text" class="form-control" id="last_name" >
+                        <span class="err lname-err"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="">Email address</label>
+                        <input type="email" class="form-control" id="email" >
+                        <span class="err email-err"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" class="form-control" id="password" >
+                        <span class="err pwd-err"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirm_password" >
+                        <span class="err cpwd-err"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <input type="submit" name="submit" class="btn btn-primary mt-3 submit-btn" value="Regsiter">
+                    </div>
+                </div>
+            </form>    
+        </div>
+    </div>
+</body>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="../js/register.js"></script>
+
+</html>
